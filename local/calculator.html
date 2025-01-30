@@ -12,6 +12,7 @@
             align-items: center;
             height: 100vh;
             background-color: #f4f4f4;
+            flex-direction: column;
         }
         .calculator {
             width: 300px;
@@ -58,6 +59,11 @@
             background: #f44336;
             color: white;
         }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
     </style>
 </head>
 <body>
@@ -87,6 +93,8 @@
             <button class="equal" onclick="calculateResult()">=</button>
         </div>
     </div>
+
+    <div class="footer">Created by Shamita P kulkarni</div>
 
     <script>
         let display = document.getElementById("display");
